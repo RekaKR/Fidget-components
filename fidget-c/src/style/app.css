@@ -29,10 +29,10 @@
 }
 .app .box-button button {
   width: 100px;
-  transition: 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 .app .box-button button:hover {
-  transform: scale(1.5);
+  transform: scale(1.5) translateZ(0);
 }
 .app .box-counter {
   display: flex;
