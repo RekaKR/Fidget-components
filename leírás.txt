@@ -1,0 +1,37 @@
+Megnézem a feladatot
+
+Letöltöm a repository.
+
+npx -izével felrakjuk a reac-t cuccokat - mappa
+Belépek a mappába.
+Elindítom az npm start-ot.
+Kitörlök mindent, ami nekem nem kell.
+Átírom App.js - valami.jsx-é. (opcionális)
+
+Beimportálom a React from 'react'-et. (Folyamatosan beimportálom az új file-okba, ha szükséges.)
+
+Elkezdem a HTML felépítését: Csinálok grid-et a feladatnak megfelelően (2 tiles)
+CSS-el megformázom, h. az oldal közepére kerüljön.
+
+Létrehozom a kompononensek mappát.
+
+Létrehozom a button komponenst. (Bejövő props értékkel.) Ráteszünk egy onclick-et és egy color randomizálóval tesszük egyenlővé.
+A css-be megírnám a hover-t. 
+
+Beimportálom a valami.jsx - 1. tiles-be helyezve. Egy for ciklussal meghívom ezt a komponenst, elmentem egy array-be.
+A for ciklusba beadunk minden button komponensnek egy random color props-ot és a color randomizálóval tesszük egyenlővé
+az inline style:colorját a komponen filejában.
+
+Az array-t bedobjuk a HTMl struktúránkba.
+
+Létrehozzuk egy másik komponenst. Beimportálok mindent, ami kell.
+Meghívom a usestate-t, létrehozok egy változót.
+Létrehozok két p-t, amive meghívom a változót, illetve két buttont; rakok rá egy-egy onclik-et,
+amibe meghívom a függvényt és abba beleírom, a változó+1-et illetve a változó-1-et.
+Beimportálom a valami.jsx - 2. tiles-be helyezve meghívom a komponenst.
+
+Megformázom css-ben, amit eddig még nem formáztam meg.
+
+Run build-et futtotatom.
+
+Commit, push.
