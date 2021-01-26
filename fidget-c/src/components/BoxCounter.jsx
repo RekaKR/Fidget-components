@@ -7,6 +7,7 @@ function BoxCounter() {
   return (
     <div className="box-counter">
       <button onClick={() => setCounter(counter + 1)}>+</button>
+      <p>{counter}</p>
       <button onClick={() => setCounter(counter - 1)}>-</button>
     </div>
   );
