@@ -1,3 +1,40 @@
 .app {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 395px 395px;
+  grid-template-rows: 400px;
+  grid-column-gap: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+.app button {
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+}
+.app .box-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  grid-column: 1/span 1;
+  grid-row: 1/span 1;
+}
+.app .box-counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2fadad;
+  grid-column: 2/span 1;
+  grid-row: 1/span 1;
+}
+.app .box-counter button {
+  width: 140px;
+  height: 140px;
+}
+
+/*# sourceMappingURL=app.css.map */

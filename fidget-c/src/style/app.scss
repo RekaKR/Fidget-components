@@ -1,0 +1,39 @@
+@use 'mixins' as *;
+
+.app {
+  display: grid;
+  grid-template-columns: 395px 395px;
+  grid-template-rows: 400px;
+  grid-column-gap: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  button {
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+  }
+  
+  .box-button {
+    @include flexCenterColumn();
+    background-color: gray;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+  
+  .box-counter {
+    @include flexCenterColumn();
+    background-color: rgb(47, 173, 173);
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+
+    button {
+      width: 140px;
+      height: 140px;
+    }
+  }
+}
+
