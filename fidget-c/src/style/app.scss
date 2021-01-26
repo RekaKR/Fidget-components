@@ -1,8 +1,10 @@
 @use 'mixins' as *;
 
 .app {
+  min-width: 200px;
+  width: 60%;
   display: grid;
-  grid-template-columns: 395px 395px;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 400px;
   grid-column-gap: 10px;
   position: absolute;
@@ -14,7 +16,7 @@
     color: black;
     padding: 10px;
     margin: 10px;
-    border-radius: 4px;
+    border-radius: 5px;
   }
   
   .box-button {
@@ -27,12 +29,14 @@
   .box-counter {
     @include flexCenterColumn();
     background-color: rgb(47, 173, 173);
+    font-size: 30px;
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
 
     button {
       width: 140px;
       height: 140px;
+      font-size: 30px;
     }
   }
 }
