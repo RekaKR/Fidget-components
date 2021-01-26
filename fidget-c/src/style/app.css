@@ -12,8 +12,9 @@
 }
 .app button {
   color: black;
-  padding: 10px;
   margin: 10px;
+  padding: 10px 0;
+  font-weight: bold;
   border-radius: 5px;
 }
 .app .box-button {
@@ -24,6 +25,9 @@
   background-color: gray;
   grid-column: 1/span 1;
   grid-row: 1/span 1;
+}
+.app .box-button button {
+  width: 100px;
 }
 .app .box-counter {
   display: flex;
