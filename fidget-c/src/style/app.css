@@ -29,6 +29,7 @@
 }
 .app .box-button button {
   width: 100px;
+  display: block !important;
   transition: transform 0.8s ease-in-out;
 }
 .app .box-button button:hover {
